@@ -11,7 +11,7 @@ public class Juego
     {
         Jugador p1 = new Jugador();
         Jugador p2 = new Jugador();
-        boolean fin_de_juego = false;  
+        boolean finJuego = false;  
         Integer Rondasjugadas = 0;    // NÃºmero de rondas jugadas
         Integer EXITOS_jugador1 = p1.exitos;
         Integer EXITOS_jugador2 = p2.exitos;
@@ -67,11 +67,11 @@ public class Juego
             Rondasjugadas++;
             if((p1.exitos >= 3)||(p2.exitos >= 3))
             {
-            	fin_de_juego=true;
+            	finJuego=true;
                 System.out.println("FIN DEL JUEGO!!");
             }
             System.out.println();
-        } while(fin_de_juego != true);
+        } while(finJuego != true);
     }
 }
 /**
