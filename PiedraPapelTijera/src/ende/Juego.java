@@ -108,5 +108,4 @@ class Jugador{
     }
     
     int exitos;      // nÃºmero de partidas ganadas
-    int winTotal;
 }
