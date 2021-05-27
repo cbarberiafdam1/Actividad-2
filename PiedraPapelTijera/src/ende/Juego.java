@@ -98,14 +98,6 @@ class Jugador{
         }
         return opcion;
     }
-    public void setExitos() 
-    {
-    	exitos++;
-    }
-    public int getExitos() 
-    {
-        return(exitos);
-    }
     
     int exitos;      // nÃºmero de partidas ganadas
 }
